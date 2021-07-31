@@ -1,0 +1,198 @@
+
+
+ img 
+.content{
+    margin-left: 100px;
+    margin-top:  -30px;
+  
+ 
+   
+   }
+   
+   
+   /* .card {
+     background: #fff;
+     width: 400px;
+     height: 400px;
+     padding: 3px;
+     position: relative;
+     border-radius: 6px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     display: flex;
+     font-size: 1.5em;
+     color: rgb(88 199 250 / 0%);
+     cursor: pointer;
+   }
+   
+   .card:hover {
+     color: rgb(88 199 250 / 100%);
+     transition: color 1s;
+   }
+   .card:hover:before, .card:hover:after {
+     animation: none;
+     opacity: 0;
+   }
+   
+   
+   .card::before {
+     content: "";
+     width: 104%;
+     height: 102%;
+     border-radius: 8px;
+     background-image: linear-gradient(
+       var(--rotate)
+       , #000, #000 43%, #000);
+       position: absolute;
+       z-index: -1;
+       top: -1%;
+       left: -2%;
+       animation: spin 2.5s linear infinite;
+   }
+   
+   .card::after {
+     position: absolute;
+     content: "";
+     top: calc(var(--card-height) / 6);
+     left: 0;
+     right: 0;
+     z-index: -1;
+     height: 100%;
+     width: 100%;
+     margin: 0 auto;
+     transform: scale(0.8);
+     filter: blur(calc(var(--card-height) / 6));
+     background-image: linear-gradient(
+       var(--rotate)
+       , #5ddcff, #3c67e3 43%, #4e00c2);
+       opacity: 1;
+     transition: opacity .5s;
+     animation: spin 2.5s linear infinite;
+   }
+   
+   @keyframes spin {
+     0% {
+       --rotate: 0deg;
+     }
+     100% {
+       --rotate: 360deg;
+     }
+   } */
+   
+   
+   .cal{
+     margin-top: -550px;
+     margin-left: 550px;
+   }
+   
+   form {
+     max-width: 200px;
+     margin: 10px auto;
+     padding: 10px 20px;
+     background: #f4f7f8;
+     border-radius: 8px;
+   }
+   
+   h2 {
+     margin: 0 0 30px 0;
+     text-align: center;
+   }
+   
+   input[type="text"],
+   input[type="password"],
+   input[type="date"],
+   input[type="datetime"],
+   input[type="email"],
+   input[type="number"],
+   input[type="search"],
+   input[type="tel"],
+   input[type="time"],
+   input[type="url"],
+   textarea,
+   select {
+     background: rgba(255,255,255,0.1);
+     border: none;
+     font-size: 16px;
+     height: auto;
+     margin: 0;
+     outline: 0;
+     padding: 15px;
+     width: 100%;
+     background-color: #e8eeef;
+     color: #0a0b0c;
+     box-shadow: 0 1px 0 rgba(8, 0, 0, 0.03) inset;
+     margin-bottom: 30px;
+   }
+   
+   input[type="radio"],
+   input[type="checkbox"] {
+     margin: 0 4px 8px 0;
+   }
+   
+   select {
+     padding: 6px;
+     height: 32px;
+     border-radius: 2px;
+   }
+   
+   button {
+     padding: 19px 39px 18px 39px;
+     color: rgb(234, 242, 245);
+     background-color: #52b5f7;
+     font-size: 18px;
+     text-align: center;
+     font-style: normal;
+     border-radius: 5px;
+     width: 100%;
+     border: 1px solid #57dce6;
+     border-width: 1px 1px 3px;
+     box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+     margin-bottom: 10px;
+   }
+   
+   fieldset {
+     margin-bottom: 30px;
+     border: none;
+   }
+   
+   legend {
+     font-size: 1.4em;
+     margin-bottom: 10px;
+   }
+   
+   label {
+     display: block;
+     margin-bottom: 8px;
+   }
+   
+   label.light {
+     font-weight: 300;
+     display: inline;
+   }
+   
+   .number {
+     background-color: #5fcf80;
+     color: #fff;
+     height: 30px;
+     width: 30px;
+     display: inline-block;
+     font-size: 0.8em;
+     margin-right: 4px;
+     line-height: 30px;
+     text-align: center;
+     text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+     border-radius: 100%;
+   }
+ 
+
+   
+   
+   @media screen and (min-width: 480px) {
+   
+     form {
+       max-width: 480px;
+     }
+   
+   }
+   
